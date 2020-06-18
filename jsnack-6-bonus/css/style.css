@@ -2,8 +2,8 @@
   box-sizing: border-box;
   margin:0;
   /* DEBUG:  */
-  border:1px solid black;
-  padding:5px;
+  /* border:1px solid black;
+  padding:5px; */
 }
 
 body, html {
@@ -12,76 +12,41 @@ body, html {
   font-family: arial, monospace;
 }
 
-
-.pari{
-  background-color: green;
-}
-
-.dispari{
-  background-color: red;
-}
-
-
-
-/* griglia */
-
-/* GRID */
-
-/* .my-grid-container{
+.my-box{
   width: 100%;
-  height: 100vh;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows:50% 25vh auto;
-
-  grid-column-gap:;
-  grid-row-gap:;
+  height: 100%;
+  padding: 25px;
 }
 
-.my-grid-container.one{
-  grid-column: 1 / 2;
+.my-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.my-grid-container.two{
-  grid-column: 2 / 3;
-  background-color: red;
+.testa{
+  background-image: url('../img/moneta8.png');
 }
 
-.my-grid-container.three{
-  grid-column: 3 / 4;
-} */
-
-/* .my-grid-container.n2{
-  width: 100%;
-  height: 100vh;
-
-  display: grid;
-  grid-template-columns: repeat(2, 350px 60px) 10%;
-  grid-template-rows:50% 25vh auto;
-
-  grid-column-gap: 20px;
-  grid-row-gap: 30px;
-} */
-
-
-/* FLEX */
-
-
-/* media query */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+.croce{
+  background-image: url('../img/moneta0.png');
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+#my-p{
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 35px;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+#my-btn1{
+  width: 120px;
+  height: 30px;
+  border-radius: 3px;
+  font-weight: bolder;
+  margin-top: 35px;
 }
